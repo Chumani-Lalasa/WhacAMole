@@ -37,13 +37,6 @@ input {
   border: none;
 }
 div {
-  /* text-align: center;
-  position: relative;
-  left: 25cm;
-  bottom: 10cm;
-  border: 1px solid black;
-  width: 10cm; */
-
   position: relative;
   left: 23cm;
   bottom: 12cm;
@@ -63,10 +56,19 @@ label {
 #submit {
   margin-top: 1cm;
 }
-/* @media only screen and (max-width: 375px) {
+@media screen and (max-width:376px) {
   #mario {
+    top: 0px;
+    left: 0px;
+  }
+  div {
+    position: relative;
+    left: 3cm;
+    bottom: -3cm;
     width: 15cm;
-    height: 4cm;
-    margin-left: 0px;
-  } */
-/* } */
+    height: 3cm;
+  }
+ h2 {
+    font-size: 50px;
+  }
+} 

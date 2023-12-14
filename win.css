@@ -30,9 +30,20 @@ button {
   font-weight: bolder;
   margin-top: 1cm;
 }
-/* @media only screen and (min-width: 430px) {
+@media screen and (max-width:376px) {
   #happy {
-    height: 15cm; 
-    width: 20cm;
-    padding: 2cm; 
-  } */
+    margin-top: -10px;
+    margin-left: -10px;
+    height: 10cm;
+    width: 9.96cm;
+    padding: 0px;
+  }
+  .container {
+    display: block;
+    justify-content: center;
+  }
+  #wonText {
+    padding:0px;
+    line-height: 50px;
+  }
+}

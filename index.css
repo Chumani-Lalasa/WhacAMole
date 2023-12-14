@@ -37,21 +37,34 @@ div {
   height: 3cm;
   text-align: center;
 }
-@media only screen and (max-width: 375px) {
+@media screen and (max-width:376px) {
+  /* body{
+    width: 376px;
+    height: 727px;
+  } */
   img {
-    width: 7.2cm;
-    height: 5cm;
-    margin-left: 0;
+    width: 33cm;
+    height: 25cm;
+    position: relative;
+    top: 0cm;
+    left: 0cm;
+    border: 1px solid black;
   }
   h1 {
-    font-size: 35px;
-    width: 7cm;
+    border: 1px solid black;
+    font-size: 70px;
+    letter-spacing: 5px;
+    position: relative;
+    right: 500px;
+    top: 500px;
   }
   button {
-    width: 6cm;
-    height: 1.2cm;
-    font-size: 20px;
-    margin-left: 0.3cm;
-    margin-top: 3cm;
+    position: relative;
+    right: 500px;
+    top: 500px;
+    width: 8cm;
+    height: 2cm;
+    font-size: 40px;
+    margin-top: 1cm;
   }
 }

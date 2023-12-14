@@ -36,10 +36,10 @@ body {
     height: 100px;
 
     user-select: none; 
- -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
+   -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 h1 {
   text-align: center;
@@ -47,4 +47,22 @@ h1 {
 }
 h2 {
   font-size: 35px;
+}
+
+@media screen and (max-width:376px) {
+  #board{
+    position: relative;
+    top: 300px;
+  }
+  h1 {
+    font-size: 50px;
+    position: relative;
+    left: 100px;
+  }
+  h2 {
+    font-size: 45px;
+    position: relative;
+    top: 100px;
+    left: 150px;
+  }
 }

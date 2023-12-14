@@ -30,3 +30,24 @@ button {
   font-weight: bolder;
   margin-top: 1cm;
 }
+@media screen and (max-width:376px) {
+  #sad {
+    height: 10cm;
+    width: 10cm;
+    padding: 0px;
+    margin-top: -10px;
+    margin-left: -10px;
+  }
+  .container {
+    display: block;
+    justify-content: center;
+  }
+  #lostText {
+    padding: 0px;
+    text-align: center;
+    line-height: 50px;
+  }
+  button {
+    margin-top: 0px;
+  }
+}

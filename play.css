@@ -73,3 +73,36 @@ h2 {
   bottom: 10cm;
   width: 7cm;
 }
+@media screen and (max-width:376px) {
+  #mario {
+    top: 0cm;
+    left: 0cm;
+    width: 34cm;
+    height: 25cm;
+  }
+  h1 {
+    font-size: 70px;
+    position: relative;
+    left: 10cm;
+    top:1cm;
+    letter-spacing: 10px;
+    width: 15cm;
+  }
+  .container {
+    position: relative;
+    left: 13cm;
+    top:5cm;
+    font-size: 35px;
+  }
+  button {
+    height: 2cm;
+    position: relative;
+    right: 500px;
+    top: 500px;
+    font-size: 25px;
+  }
+  #instructions {
+    font-size: 25px;
+    display: none;
+  }
+}
