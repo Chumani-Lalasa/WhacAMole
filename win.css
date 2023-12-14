@@ -1,0 +1,38 @@
+
+body {
+  background: linear-gradient(blue, yellow);
+  background-attachment: fixed;
+  font-family: "Mukta", sans-serif;
+  color: white;
+}
+#happy {
+  height: 15cm;
+  width: 15cm;
+  padding: 2cm;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+#wonText {
+  padding: 2cm;
+  text-align: center;
+  line-height: 2cm;
+}
+button {
+  background-color: #09bc8a;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  width: 7cm;
+  height: 1cm;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 1cm;
+}
+/* @media only screen and (min-width: 430px) {
+  #happy {
+    height: 15cm; 
+    width: 20cm;
+    padding: 2cm; 
+  } */

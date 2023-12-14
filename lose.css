@@ -1,0 +1,32 @@
+
+body {
+  background: linear-gradient(yellow, black);
+  background-attachment: fixed;
+  font-family: "Mukta", sans-serif;
+  color: white;
+}
+#sad {
+  height: 15cm;
+  width: 12cm;
+  padding: 2cm;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+#lostText {
+  padding: 2cm;
+  text-align: center;
+  line-height: 2cm;
+}
+button {
+  background-color: #09bc8a;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  width: 7cm;
+  height: 1cm;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 1cm;
+}

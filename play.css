@@ -1,0 +1,75 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;800&family=Oswald:wght@200;300;400;500&family=Poppins:ital,wght@0,200;1,100;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(purple, yellow);
+  height: 100vh;
+  background-attachment: fixed;
+  font-family: "Mukta", sans-serif;
+}
+
+#mario {
+  width: 20cm;
+  height: 15cm;
+  position: relative;
+  top: 1cm;
+  left: 1cm;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  left: 25cm;
+  bottom: 14cm;
+  width: 10cm;
+}
+
+button {
+  background-color: #09bc8a;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  width: 7cm;
+  height: 1cm;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+h2 {
+  color: blue;
+}
+
+#info {
+  height: 0.5cm;
+  width: 0.5cm;
+}
+
+.container {
+  display: flex;
+  width: 10cm;
+  position: relative;
+  left: 28cm;
+  bottom: 8cm;
+}
+
+#instructions {
+  background-color: #f3dfc1;
+  font-family: "Yellowtail", cursive;
+  font-size: 18px;
+  display: none;
+}
+
+.playDiv {
+  position: relative;
+  left: 27cm;
+  bottom: 10cm;
+  width: 7cm;
+}

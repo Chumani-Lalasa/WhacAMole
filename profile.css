@@ -1,0 +1,72 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;800&family=Oswald:wght@200;300;400;500&family=Poppins:ital,wght@0,200;1,100;1,200&display=swap");
+body {
+  background: linear-gradient(purple, yellow);
+  background-attachment: fixed;
+  font-family: "Mukta", sans-serif;
+  color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+#mario {
+  width: 20cm;
+  height: 15cm;
+  position: relative;
+  top: 1cm;
+  left: 1cm;
+}
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+button {
+  background-color: #09bc8a;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  width: 4cm;
+  height: 1cm;
+  font-size: 20px;
+  font-weight: bolder;
+  /* margin-top: 1cm; */
+}
+input {
+  height: 25px;
+  border: none;
+}
+div {
+  /* text-align: center;
+  position: relative;
+  left: 25cm;
+  bottom: 10cm;
+  border: 1px solid black;
+  width: 10cm; */
+
+  position: relative;
+  left: 23cm;
+  bottom: 12cm;
+  width: 15cm;
+  height: 3cm;
+  text-align: center;
+}
+#user {
+  height: 0.8cm;
+  width: 0.8cm;
+  margin-left: 0.4cm;
+}
+label {
+  font-size: 25px;
+  font-weight: 500;
+}
+#submit {
+  margin-top: 1cm;
+}
+/* @media only screen and (max-width: 375px) {
+  #mario {
+    width: 15cm;
+    height: 4cm;
+    margin-left: 0px;
+  } */
+/* } */

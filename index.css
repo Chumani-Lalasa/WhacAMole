@@ -1,0 +1,57 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;800&family=Oswald:wght@200;300;400;500&family=Poppins:ital,wght@0,200;1,100;1,200&display=swap");
+body {
+  background: linear-gradient(purple, yellow);
+  background-attachment: fixed;
+  font-family: "Mukta", sans-serif;
+}
+img {
+  width: 20cm;
+  height: 15cm;
+  position: relative;
+  top: 1cm;
+  left: 1cm;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 12px;
+}
+button {
+  background-color: #09bc8a;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  width: 7cm;
+  height: 1cm;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 1cm;
+}
+div {
+  position: relative;
+  left: 23cm;
+  bottom: 12cm;
+  width: 15cm;
+  height: 3cm;
+  text-align: center;
+}
+@media only screen and (max-width: 375px) {
+  img {
+    width: 7.2cm;
+    height: 5cm;
+    margin-left: 0;
+  }
+  h1 {
+    font-size: 35px;
+    width: 7cm;
+  }
+  button {
+    width: 6cm;
+    height: 1.2cm;
+    font-size: 20px;
+    margin-left: 0.3cm;
+    margin-top: 3cm;
+  }
+}
