@@ -9,5 +9,5 @@ infoImg.onclick = () => {
   };
 };
 playBtn.onclick = () => {
-  window.location.href = "game.html";
+  window.location.href = "./game.html";
 };

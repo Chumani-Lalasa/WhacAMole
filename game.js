@@ -94,12 +94,12 @@ function scoreTile(){
     
     else if(this == presentPlantTile && score!=0){
         localStorage.setItem('score',score);
-        window.location.href="win.html"
+        window.location.href="./win.html"
     }
 
     else if(this == presentPlantTile && score==0){
         gameOver = true;
-        window.location.href="lose.html"
+        window.location.href="./lose.html"
     }
 
 }
