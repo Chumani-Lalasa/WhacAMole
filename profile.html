@@ -7,19 +7,28 @@
     <link rel="stylesheet" href="./profile.css" />
   </head>
   <body>
-    <img src="Mario/mario1.webp" id="mario" />
-    <div>
-      <h2>
-        <span><img src="Mario/user.png" id="user" alt="" />PROFILE</span>
-      </h2>
-      <br />
-      <form action="">
-        <label for="userName">USER NAME:</label>
-        <input type="text" id="userName" name="userName" required /><br /><br />
-        <label for="nickName">NICK NAME:</label>
-        <input type="text" id="nickName" name="nickName" required /><br />
-        <button id="submit">SUBMIT</button>
-      </form>
+    <div class="main-container">
+      <div class="img-container">
+        <img src="Mario/mario1.webp" id="mario" />
+      </div>
+      <div id="form">
+        <h2>
+          <span><img src="Mario/user.png" id="user" alt="" />PROFILE</span>
+        </h2>
+        <br />
+        <form action="">
+          <label for="userName">USER NAME:</label>
+          <input
+            type="text"
+            id="userName"
+            name="userName"
+            required
+          /><br /><br />
+          <label for="nickName">NICK NAME:</label>
+          <input type="text" id="nickName" name="nickName" required /><br />
+          <button id="submit">SUBMIT</button>
+        </form>
+      </div>
     </div>
   </body>
   <script src="./profile.js"></script>

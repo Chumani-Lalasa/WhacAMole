@@ -36,13 +36,16 @@ input {
   height: 25px;
   border: none;
 }
-div {
-  position: relative;
-  left: 23cm;
-  bottom: 12cm;
-  width: 15cm;
-  height: 3cm;
-  text-align: center;
+.main-container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.img-container{
+  margin-right: 200px;
+}
+#form{
+  margin-top: 50px;
 }
 #user {
   height: 0.8cm;
