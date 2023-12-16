@@ -1,6 +1,6 @@
 var userName = document.getElementById("userName");
 var nickName = document.getElementById("nickName");
-var submitBtn = document.getElementById("submit");
+var submitBtn = document.getElementById("submitForm");
 
 // submitBtn.onclick = () => {
 //   console.log("userName", userName.value);
