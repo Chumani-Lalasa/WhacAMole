@@ -44,6 +44,8 @@ input {
 .img-container{
   margin-right: 200px;
   position:relative;
+  right:100px;
+  bottom:20px;
 }
 #form{
   margin-top: 50px;
