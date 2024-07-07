@@ -15,6 +15,10 @@
   3. Java Script
 # Inspired from:
   Took the reference and logic from Youtube.
+  
+# Enjoy the Game:
+  https://chumani-lalasa.github.io/WhacAMole/
+  
 # Output
 ![Screenshot 2023-12-16 103532](https://github.com/Chumani-Lalasa/WhacAMole/assets/147796393/f00217e5-48ec-46ce-8699-ec629518dc2f)
 ![Screenshot 2023-12-16 105942](https://github.com/Chumani-Lalasa/WhacAMole/assets/147796393/c38bce8a-82d2-4904-9bd9-77e42d392775)
